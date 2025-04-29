@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color:rgba(113, 107, 107, 0.386); */
+}
+.box > h1 {
+  margin: 35px 0;
+  color: aqua;
+  text-shadow: 6px 3px 4px black;
+  font-size: clamp(12px, 48vw, 38px);
+}
+.box > .inputWrapper > [type="text"] {
+  border: none;
+  border-bottom: 1.5px solid black;
+  height: 5vh;
+  width: 27vw;
+  caret-color: aqua;
+  padding-left: 8px;
+}
+/* .box > .inputWrapper > p {
+  padding-left: 8px;
+  border: none;
+} */
+button.Addbutton {
+  margin-left: 12px;
+  padding: 4px;
+  width: 13vw;
+  border: 1.5px solid;
+  color: black;
+  background-color: #ffff00e0;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius:12px
+}
+button.Delbutton {
+  margin: 16px 0 0 12px;
+  padding: 4px;
+  width: 13vw;
+  border: 1.5px solid black;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius:12px
+}
